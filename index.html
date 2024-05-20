@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;900" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#more-info" class="nav-link">My Background</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#project" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact-info" class="nav-link">Contact Information</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-body-secondary mt-1">
+                    <i id="darkModeIcon" class="bi bi-sun-fill" role="button" style="font-size: 20px"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <div class="profile-pic">
+                <img src="./img/agnes.jpg" alt="picture of agnes" />
+            </div>
+            <div class="profile-info">
+                <p class="subtitle">HELLO, MY NAME IS</p>
+                <h1 class="title"><b>Agnes F. Nazarro</b></h1>
+                <p class="info">
+                    I'm a 22-year-old college student majoring in
+                    <i style="color: palevioletred; font-size: 20px;">Information Technology - Web Technology</i>.
+                    Passionate about technology and innovation, I'm an
+                    aspiring web developer dedicated to mastering the latest
+                    web technologies and frameworks. Between juggling
+                    classes and school requirements, I spend countless hours
+                    studying coding and staying updated on industry trends.
+                    With a keen eye for design and functionality, I aim to
+                    create user-friendly, dynamic websites and applications.
+                    Driven by curiosity and ambition, I participate in
+                    startup seminars, constantly seeking opportunities to
+                    learn, grow, and connect with like-minded individuals in
+                    the tech community.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="more-info">
+        <h1 class="subtitle" style="text-align: center; color: lightblue; font-size: 23px;">
+            DISCOVER MORE ABOUT ME
+        </h1>
+        <br />
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-custom overflow-hidden text-center bg-body-tertiary border rounded-3"
+                    id="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a class="fw-semibold text-decoration-none" href="#education">
+                            Education
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="fw-semibold text-decoration-none" href="#experience">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="fw-semibold text-decoration-none" href="#skill">Skills</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+        <br />
+        <section class="education" id="education">
+            <h2 style="text-align: center"><b>EDUCATIONAL ATTAINMENT</b></h2>
+            <div class="container">
+                <div class="grid-container">
+                    <div class="edu1">
+                        <ul>
+                            <h2 class="subtitle">TERTIARY</h2>
+                            <h3 class="sub2">UNDERGRADUATE</h3>
+                            <li>
+                                <b>: Bachelor of Science in Information
+                                    Technology -
+                                    <i>Major in Web Technology</i></b>
+                            </li>
+                            <li>University of the Cordilleras</li>
+                            <li>Governor Pack Road, Baguio City</li>
+                            <li>
+                                Expected Date of Graduation:
+                                <i>September 2024</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="edu2">
+                        <ul>
+                            <h2 class="subtitle">SECONDARY</h2>
+                            <h3 class="sub2">SENIOR HIGH SCHOOL</h3>
+                            <li><b>: General Academic Strand</b></li>
+                            <li>Christian Legacy Academy</li>
+                            <li>Dominican Road, Baguio City</li>
+                            <li>July 2020</li>
+                            <br />
+                            <h3 class="sub2">JUNIOR HIGH SCHOOL</h3>
+                            <li>
+                                <b>: Special Program in Sports -
+                                    <i>Swimming</i></b>
+                            </li>
+                            <li>Baguio City National High School</li>
+                            <li>
+                                Harrison Rd. cor. Governor Pack Rd., Baguio City
+                            </li>
+                            <li>April 2018</li>
+                            <li>With Honors</li>
+                        </ul>
+                    </div>
+                    <div class="edu3">
+                        <ul>
+                            <h2 class="subtitle">PRIMARY</h2>
+                            <h3 class="sub2">ELEMENTARY</h3>
+                            <li>
+                                <b>: St. Martin School, Inc. Assumption
+                                    Baguio</b>
+                            </li>
+                            <li>Mission Rd. Crystal Cave, Baguio City</li>
+                            <li>April 2014</li>
+                            <li>With Honors</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="downloadButton" id="downloadButton">
+                        <a href="resume.pdf" target="_blank" download="resume.pdf">
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            Download Resume
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="experience">
+            <h2 style="text-align: center"><b>MY EXPERIENCES</b></h2>
+            <div class="container">
+                <div class="grid-container">
+                    <div class="exp1">
+                        <ul>
+                            <h2 class="subtitle">WORK EXPERIENCE</h2>
+                            <h3 class="sub2">On-The-Job Training</h3>
+                            <li>
+                                <b>: Exponent Controls and Electrical
+                                    Corporation -
+                                    <i>Engineering Department and Purchasing
+                                        Department</i></b>
+                            </li>
+                            <li>
+                                Brgy. San Isidro, Cainta, Rizal 1900 Philippines
+                            </li>
+                            <li>May 2018 - July 2018</li>
+                        </ul>
+                    </div>
+                    <div class="exp2">
+                        <ul>
+                            <h2 class="subtitle">SEMINARS and TRAININGS</h2>
+                            <h3 class="sub2">2024</h3>
+                            <li>
+                                <b>: 2nd iSITE National Conference with a
+                                    Theme:
+                                    <i>“Innovate 360: Navigating the Digital
+                                        Frontier in Education”</i></b>
+                            </li>
+                            <li>April 5, 2024</li>
+                            <li>University of the Cordilleras</li>
+                            <li>
+                                <b>: Web3 in Baguio -
+                                    <i>A Debate on Web3 Adoption in the
+                                        Philippines</i></b>
+                            </li>
+                            <li>March 15, 2024</li>
+                            <li>
+                                Bull or Bear x University of the Cordilleras
+                            </li>
+                            <li>
+                                <b>: Cohort 7 -
+                                    <i>Tech Consultation Training Session</i></b>
+                            </li>
+                            <li>January 13, 2024</li>
+                            <li>
+                                UC Innovation and Technology Transfer Office
+                            </li>
+                            <br />
+                            <h3 class="sub2">2023</h3>
+                            <li>
+                                <b>: Cohort 7 -
+                                    <i>Digital Marketing Training Session</i></b>
+                            </li>
+                            <li>November 24, 2023</li>
+                            <li>
+                                UC Innovation and Technology Transfer Office
+                            </li>
+                            <li>
+                                <b>: Cohort 7 -
+                                    <i>Branding and User Experience Design
+                                        Training Session</i></b>
+                            </li>
+                            <li>November 23, 2023</li>
+                            <li>
+                                UC Innovation and Technology Transfer Office
+                            </li>
+                            <li>
+                                <b>: Google DevFest Baguio 2023</b>
+                            </li>
+                            <li>November 11, 2023</li>
+                            <li>Google Developer Group Baguio</li>
+                            <li>
+                                <b>: QBO x Cities 2023 -
+                                    <i>AQADEMY Campus Tour at UC</i></b>
+                            </li>
+                            <li>September 15, 2023</li>
+                            <li>QBO Innovation Hub</li>
+                            <li>
+                                <b>: Cohort 7 -
+                                    <i>Business Model Canvas and Product Market Fit Training Session</i></b>
+                            </li>
+                            <li>November 11, 2023</li>
+                            <li>UC Innovation and Technology Transfer Offic</li>
+                            <li>
+                                <b>: Driving the Culture of Innovation</b>
+                            </li>
+                            <li>July 18, 2023</li>
+                            <li>
+                                UC Innovation and Technology Transfer Office x
+                                Baybayin Hub
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="downloadButton" id="downloadButton">
+                        <a href="resume.pdf" target="_blank" download="resume.pdf">
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            Download Resume
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skill">
+            <h2 style="text-align: center"><b>SKILLS & QUALIFICATIONS</b></h2>
+            <div class="container">
+                <ul>
+                    <li>
+                        Knowledgeable in programming language:
+                        <b style="color: palevioletred; font-weight: bold">HTML</b>,
+                        <b style="color: palevioletred; font-weight: bold">CSS</b>,
+                        <b style="color: palevioletred; font-weight: bold">Java</b>, and
+                        <b style="color: palevioletred; font-weight: bold">Python</b>.
+                    </li>
+                    <li>
+                        Basic knowledge in version management tools:
+                        <b style="color: palevioletred; font-weight: bold">Git</b>
+                        and
+                        <b style="color: palevioletred; font-weight: bold">GitHub</b>.
+                    </li>
+                    <li>Knowledgeable with multimedia software:
+                        <b style="color: palevioletred; font-weight: bold">Filmora</b>,
+                        <b style="color: palevioletred; font-weight: bold">LumaFusion</b>,
+                        <b style="color: palevioletred; font-weight: bold">Procreate</b>,
+                        <b style="color: palevioletred; font-weight: bold">Figma</b>, and
+                        <b style="color: palevioletred; font-weight: bold">Canva</b>.
+                    </li>
+                    <li>
+                        Flexible
+                        <b style="color: palevioletred; font-weight: bold">individual</b>
+                        and
+                        <b style="color: palevioletred; font-weight: bold">team player</b>
+                        who funcitons well in a <i>fast-paced</i> work
+                        environment.
+                    </li>
+                </ul>
+                <br>
+                <h2 style="text-align: center"><b>AWARDS & CERTIFICATES</b></h2>
+                <ul>
+                    <li>
+                        <b style="color: palevioletred; font-weight: bold">: CHAMPION</b>
+                        in the Technopreneurship Demo Day 5
+                    </li>
+                    <li>December 4, 2023</li>
+                    <li>UC Innovation and Technology Transfer Office</li>
+                    <li>
+                        <b style="color: palevioletred; font-weight: bold">: 3rd Placer</b>
+                        in the Philippine StartUp Challenge 8 - Regional Pitching
+                        Competition in the Cordillera Administrative Region (CAR)
+                    </li>
+                    <li>October 13, 2023 </li>
+                    <li>DICT Cordillera Administrative Region (CAR)</li>
+                    <li>
+                        <b style="color: palevioletred; font-weight: bold">: Best in Video Pitch</b>
+                        during the Philippine StartUp Challenge 8 - Regional Pitching
+                        Competition in the Cordillera Administrative Region (CAR)
+                    </li>
+                    <li>October 13, 2023 </li>
+                    <li>DICT Cordillera Administrative Region (CAR)</li>
+                </ul>
+                <div class="button">
+                    <button class="downloadButton" id="downloadButton">
+                        <a href="resume.pdf" target="_blank" download="resume.pdf">
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            Download Resume
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <br>
+    <hr style="
+                border: none;
+                border-top: 2px solid palevioletred;
+                margin: 0 auto 10px auto;
+                width: 90%;
+                justify-self: center;
+            " />
+    <br>
+
+    <section class="projects" id="project">
+        <h2 style="padding-left: 80px;"><b>PROJECTS</b></h2>
+        <p class="subtitle" style="padding-left: 80px;">THESE ARE SOME OF MY PROJECTS FROM FREECODECAMP</p>
+        <div class="container">
+            <div class="card" style="width: 25rem;">
+                <a href="https://agnesnazarro.github.io/Survey-Form/">
+                    <img src="./img/survey_form.png" class="card-img-top" alt="survey form photo">
+                    <div class="card-body">
+                        <h3>Survey Form</h3>
+                        <p class="card-text">This page serves as a survey form intended to gather detailed information
+                            and insights from users about K-Pop, including their music preferences, favorite artists,
+                            and
+                            fan experiences.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card" style="width: 25rem;">
+                <a href="https://agnesnazarro.github.io/Tribute-Page/">
+                    <img src="./img/tribute_page.png" class="card-img-top" alt="tribute page photo">
+                    <div class="card-body">
+                        <h3>Tribute Page</h3>
+                        <p class="card-text">This tribute page features Blackpink, including information about the
+                            members, their albums, and some details about the group. It's a subject I chose for the
+                            project.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card" style="width: 25rem;">
+                <a href="https://agnesnazarro.github.io/Technical-Documentation-Page/">
+                    <img src="./img/documentation_page.png" class="card-img-top"
+                        alt="technical documentation page photo">
+                    <div class="card-body">
+                        <h3>Technical Documentation Page</h3>
+                        <p class="card-text">This project functions as a technical documentation page providing
+                            step-by-step HTML instructions or guidelines.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card" style="width: 25rem;">
+                <a href="https://agnesnazarro.github.io/Product-Landing-Page/">
+                    <img src="./img/product_page.png" class="card-img-top" alt="product landing page photo">
+                    <div class="card-body">
+                        <h3>Product Landing Page</h3>
+                        <p class="card-text">This product landing page showcases Spotify and provides details about its
+                            features, rates,
+                            and other relevant information.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <hr style="
+                border: none;
+                border-top: 2px solid palevioletred;
+                margin: 0 auto 10px auto;
+                width: 90%;
+                justify-self: center;
+            " />
+    <br>
+
+    <section class="contact-information" id="contact-info">
+        <div class="grid-container">
+            <div class="contact1">
+                <p class="subtitle" style="color: lightblue">
+                    LIKE WHAT YOU SEE?
+                </p>
+                <h2><b>LET'S WORK TOGETHER</b></h2>
+            </div>
+            <div class="contact2">
+                <h2 class="subtitle">LET'S CONNECT ON</h2>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-left">
+                            <a href="https://github.com/agnesnazarro">
+                                <i class="bi bi-github" style="
+                                            font-size: 1.5rem;
+                                            color: palevioletred;
+                                        " alt="github logo"></i>
+                            </a>
+                        </div>
+                        <div class="contact-right">
+                            <a href="https://github.com/agnesnazarro">@agnesnazarro</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-left">
+                            <a href="https://www.linkedin.com/in/agnesnazarro/">
+                                <i class="bi bi-linkedin" style="
+                                            font-size: 1.5rem;
+                                            color: palevioletred;
+                                        " alt="linkedin logo"></i>
+                            </a>
+                        </div>
+                        <div class="contact-right">
+                            <a href="https://www.linkedin.com/in/agnesnazarro/">@agnesnazarro</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-left">
+                            <a href="https://www.facebook.com/nazarroagnes/">
+                                <i class="bi bi-facebook" style="
+                                            font-size: 1.5rem;
+                                            color: palevioletred;
+                                        " alt="facebook logo"></i>
+                            </a>
+                        </div>
+                        <div class="contact-right">
+                            <a href="https://www.facebook.com/nazarroagnes/">@Agnes Nazarro</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-left">
+                            <a href="https://www.instagram.com/agnesnazarro/">
+                                <i class="bi bi-instagram" style="
+                                            font-size: 1.5rem;
+                                            color: palevioletred;
+                                        " alt="instagram logo"></i>
+                            </a>
+                        </div>
+                        <div class="contact-right">
+                            <a href="https://www.instagram.com/agnesnazarro/">@agnesnazarro</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact3">
+                <h2 class="subtitle">OR MESSAGE ME</h2>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-left">
+                            <a href="sms:+639624184170">
+                                <i class="bi bi-telephone-fill" style="
+                                            font-size: 1.5rem;
+                                            color: palevioletred;
+                                        " alt="telephone icon"></i>
+                            </a>
+                        </div>
+                        <div class="contact-right">
+                            <a href="sms:+639624184170">+63-962-418-4170</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-left">
+                            <a href="mailto:afnazarro@gmail.com">
+                                <i class="bi bi-envelope-at-fill" style="
+                                            font-size: 1.5rem;
+                                            color: palevioletred;
+                                        " alt="email icon"></i>
+                            </a>
+                        </div>
+                        <div class="contact-right">
+                            <a href="mailto:afnazarro@gmail.com">afnazarro@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- Footer -->
+    <footer class="py-2 my-1">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href="#about-me" class="nav-link px-2 text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-balloon-heart d-block mx-auto mb-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063q.068.062.132.129.065-.067.132-.129c3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3 3 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398" />
+                    </svg>
+                    About Me
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#more-info" class="nav-link px-2 text-body-secondary">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-award d-block mx-auto mb-1" viewBox="0 0 16 16">
+                        <path
+                            d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                    </svg>
+                    Background
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#project" class="nav-link px-2 text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-journal-code d-block mx-auto mb-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708m-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708" />
+                        <path
+                            d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
+                        <path
+                            d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
+                    </svg>
+                    Projects
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-info" class="nav-link px-2 text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-info-circle d-block mx-auto mb-1" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">
+            &copy; 2024 Agnes F. Nazarro
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
